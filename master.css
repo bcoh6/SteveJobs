@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/**---전 항목 공통---**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/**----네비게이션 적용---**/
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.menubar{
+    width: 1100px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+  left: 46px;
+  margin-top: 10px;
+
+}
+
+.menu{
+    width: 150px;
+    height: 10px;
+    border: 0px solid green;
+    text-align: center;
+    margin-top: 26px;
+}
+.menu > a{
+    color: black;
+    font-family: 'Apple SD 산돌고딕 Neo';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+a:hover{
+	color: rgb(123, 123, 123);
+} 
+
+
+/**---푸터 적용 (공통)---**/
+
+/**---인덱스---**/
+.index_box{
+    background-image: url('img/bg01.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.index_box > a{
+    position: absolute;
+    left: 600px;
+    bottom: 200px;
+}
+
+
+/**---메인---**/
+.wrap{
+    width: 100%;
+    height: 100%;
+
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_box01{background-image: url(img/bg02.png); width: 100%; height: 1016px; display: flex; justify-content: center;align-items: center; background-size: cover;}
+.main_tit01{width: 463px;height: 269px; margin-left: 890px; border: 0px solid red;}
+
+.main_box02{background-image: url(img/bg03.png);width: 100%; height: 986px; display: flex;justify-content: center;align-items: center; background-size: cover;}
+.main_tit02{width: 800px;height: 300px; border: 0px solid green;}
+
+.main_box03{background-image: url(img/bg04.png);width: 100%; height: 1084px; display: flex;justify-content: center;align-items: center; background-size: cover;}
+.main_tit03{width: 290px; height: 140px; margin: auto; position: absolute; top: 2650px; border: 0px solid green; }
+
+.main_box04{background-image: url(img/bg05.png);width: 100%; height: 997px; display: flex;justify-content: center;align-items: center; background-size: cover;}
+.main_tit04{width: 1003px;height: 642px; border: 0px solid green;}
+
+
+
+.footer_main{
+    background-image: url(img/ft_01.png); width: 100%; 
+    height: 97px; margin: auto; background-size: cover;
+}
+
+
+
+/**--서브페이지01--**/
+/* sub01 css--------*/
+
+.sub01_box01{background-image: url(img/bg02.png);width: 100%; height: 1014px; display: flex;justify-content: center;align-items: center; background-size: cover;}
+.sub01_tit01{width: 463px;height: 269px; margin-left: 890px; border: 0px solid red;}
+
+.sub01_box02{background-color: #ffffff;width: 100%; height: 446px;display: flex;justify-content: center;align-items: center;}
+.sub01_tit02{width: 800px;height: 300px;border: 0px solid green;}
+
+.sub01_box03{background-color: #383838;width: 100%; height: 269px;display: flex;justify-content: center;align-items: center;}
+.sub01_tit03{width: 1003px;height: 123px; border: 0px solid green; 
+    position: absolute; left: 28%; top: 1615px;}
+
+.sub01_box04{background-image: url('img/sub01_bg04.png'); width: 100%; height: 726px;display: flex;justify-content: center;align-items: center;background-size: cover;}
+.sub01_tit04{width: 1003px;height: 642px; position: absolute; left: 28%; top: -750px; border: 0px solid green;}
+
+.sub01_box05{background-image: url('img/sub01_bg05.png');width: 100%; height: 830px; margin-top: 60px; display: flex;justify-content: center; align-items: center;background-size: cover;}
+.sub01_tit05{width: 1003px; height: 910px; position: absolute; left: 28%; top: -800px; border: 0px solid green; }
+
+.footer_sub01{
+    background-image: url(img/ft_02.png); width: 100%; height: 97px; background-size: cover;
+    margin-top: 200px;
+}
+
+
+/**--서브페이지02--**/
+/* sub02 css--------*/
+
+.sub02_box01{background-image: url(img/sub02_bg.png); width: 100%; height: 986px; background-size: cover;  border: 0px solid red; }
+
+.sub02_box02{background-image: url(img/sub02_img01.png);
+width:1920px; height: 5400px;  margin: auto; margin-top: 100px; background-repeat: no-repeat; } 
+
+
+.sub02_box03{width: 1920px; height: 580px;  position: absolute; top: 1430px; left: 158px;  border: 0px solid green;}
+
+.sub02_box04{width: 1920px; height: 630px;  position: absolute; top: 2010px; left: 160px;  border: 0px solid green;}
+
+.sub02_box05{width: 1920px; height: 705px; position: absolute; top: 2605px; left: 158px;  border: 0px solid green;}
+
+.sub02_box06{width: 1920px; height: 1080px;  position: absolute; top: 3290px; left: 160px;  border: 0px solid green;}
+
+.sub02_box07{width: 1920px; height: 1160px; position: absolute; top: 4280px; left: 158px; border: 0px solid green;}
+
+.sub02_box08{width: 1920px; height: 1060px; position: absolute; top: 5404px; left: 160px; border: 0px solid green;}
+
+.footer_sub02{
+    background-image: url(img/ft_02.png); width: 100%; 
+    height: 97px; background-size: cover; 
+}
+
+
+
+/**--서브페이지03--**/
+/* sub03 css--------*/
+
+.sub03_box01{background-image: url(img/sub03_bg.png);width: 100%; height: 1084px; background-size: cover;}
+
+.sub03_tit01{width: 1004px; height: 610px; border: 0px solid green; margin: auto; padding-top: 150px; background-size: cover;}
+
+.sub03_tit02{width: 1003px; height: 684px; border: 0px solid green; padding-top: 150px; margin: auto;  background-size: cover;}
+
+.sub03_tit03{width: 903px; height: 970px; border: 0px solid green; padding: 150px; margin: auto; background-size: cover;}
+
+.footer_img03{
+    background-image: url(img/ft_02.png); width: 100%; 
+    height: 97px; margin-top: 450px; background-size: cover;
+}
+
+
+
+/**--서브페이지04--**/
+/* sub04 css--------*/
+
+.sub04_box01{background-image: url(img/sub04_bg.png); width: 100%; height: 997px;  background-size: cover;}
+
+.sub04_tit01{width: 1005px; height: 477px; 
+    padding-top: 80px; margin: auto; background-size: cover;}
+
+.sub04_tit02{width: 1062px; height: 2952px; padding: 300px;
+   margin: auto; background-size: cover;}
+
+
+.footer_img04{
+    background-image: url(img/ft_02.png); width: 100%; 
+    height: 97px; margin-top: -90px; background-size: cover;
+}
+
+
+
+
+
+ 
+
+
